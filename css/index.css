@@ -1,0 +1,14 @@
+html {
+  height: 100%;
+  background-image: linear-gradient(to bottom, #051937, #004e6b, #0e888c, #74c19c, #dff5ad);
+  );
+}
+
+h1 {
+  color: rgb(252, 252, 252);
+  opacity: 0.5;
+  font-family: "Sansita Swashed", cursive;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 10%;
+}
