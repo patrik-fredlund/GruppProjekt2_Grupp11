@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Raulf Blogg</title>
+    <title>TicTacToe</title>
     <link rel="stylesheet" type="text/css" href="/css/raulf.css">
     <script type="text/javascript" src="/js/raulf.js" defer></script>
 
@@ -12,8 +12,25 @@
 </head>
 
 <body>
-    <h1>Raulf Blogg</h1>
-    <h1>Jag hopppas att det funkar nu</h1>
+    <div class="board circle" id="board">
+        <div class="cell x" data-cell></div>
+        <div class="cell circle" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div>
+
+    <!--Winning or losing section-->
+    
+    <div class="winning-message" id="winningMessage">
+        <div data-winning-message-text></div>
+        <button id="restartButton">Restart</button>
+        <a href="#">Nest level</a>
+    </div>
 </body>
 
 </html>
