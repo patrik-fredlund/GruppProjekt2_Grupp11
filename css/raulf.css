@@ -1,0 +1,58 @@
+h1 {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #333333;
+    font-weight: normal;
+    font-size: 3em;
+}
+
+main {
+    margin: auto;
+}
+
+#menu {
+    margin: auto;
+    width: 25%;
+}
+
+#menu button{
+    display: block;
+    margin: auto;
+}
+
+#board{
+    margin: auto;
+}
+
+table {
+    padding-top: 5em;
+    margin: auto;
+}
+
+td {
+    background-color: #eeeeee;
+    border: 4px solid white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 5em;
+}
+
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    color: #333333;
+    text-align: center;
+    font-family: sans-serif;
+    padding-bottom: .5em;
+}
+
+footer p a {
+    color: #333333;
+    text-decoration: none;
+}
