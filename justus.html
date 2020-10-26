@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Justus Blogg</title>
+    <title>hangman</title>
     <link rel="stylesheet" type="text/css" href="/css/justus.css">
     <script type="text/javascript" src="/js/justus.js" defer></script>
 
@@ -12,7 +12,19 @@
 </head>
 
 <body>
-    <h1>Justus Blogg</h1>
-</body>
-
-</html>
+    <div class="container">
+      <h1 class="text-center">hangman</h1>
+      <div class="float-right">Wrong Guesses: <span id='mistakes'>0</span> of <span id='maxWrong'></span></div>
+      <div class="text-center">
+        <img id='hangmanPic' src="./images/0.jpg" alt="">
+        <p>Guess the Programming Language:</p>
+        <p id="wordSpotlight">The word to be guessed goes here</p>
+        <div id="keyboard"></div>
+        <button class="btn btn-info" onClick="reset()">Reset</button>
+      </div> 
+    </div>
+    
+    <script src='./js/hangman.js'></script>
+    
+    </body>
+    </html>
