@@ -1,36 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
+<html>
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TicTacToe</title>
+    <title>Tic-Tac-Toe</title>
     <link rel="stylesheet" type="text/css" href="/css/raulf.css">
     <script type="text/javascript" src="/js/raulf.js" defer></script>
+    </head>
+    <body>
+         <header>
+            <h1>Tic-Tac-Toe</h1>
+        </header>
+        <main>
+            <div id='menu'>
+                <div class="name-input">
+                    <label for="player1">Player1</label>
+                    <input id='player1' type="text" name="player1">
+                </div>
+                <div class="name-input">
+                    <label for="player2">Player2</label>
+                    <input id='player2' type="text" name="player2">
+                </div> 
+                <button id='play' onclick = 'gameController.start()'>PLAY</button>
+                <button id='singlePlayer' onclick = 'gameController.singlePlayer()'>SINGLE PLAYER</button>
+            </div>
+            <div id='board'>
+                <table>
+                </table>
+            </div>
+            </main>
+        </body>
+    </html>
 
-
-</head>
-
-<body>
-    <div class="board circle" id="board">
-        <div class="cell x" data-cell></div>
-        <div class="cell circle" data-cell></div>
-        <div class="cell" data-cell></div>
-        <div class="cell" data-cell></div>
-        <div class="cell" data-cell></div>
-        <div class="cell" data-cell></div>
-        <div class="cell" data-cell></div>
-        <div class="cell" data-cell></div>
-        <div class="cell" data-cell></div>
-    </div>
-
-    <!--Winning or losing section-->
-    
-    <div class="winning-message" id="winningMessage">
-        <div data-winning-message-text></div>
-        <button id="restartButton">Restart</button>
-        <a href="#">Nest level</a>
-    </div>
-</body>
-
-</html>
+        
