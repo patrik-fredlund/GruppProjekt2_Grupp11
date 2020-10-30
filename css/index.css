@@ -1,14 +1,85 @@
 html {
   height: 100%;
-  background-image: linear-gradient(to bottom, #051937, #004e6b, #0e888c, #74c19c, #dff5ad);
-  );
+  background-color: black;
+  /*   background: rgb(163, 166, 254);
+  background: linear-gradient(
+    180deg,
+    rgba(163, 166, 254, 1) 0%,
+    rgba(100, 101, 145, 1) 13%,
+    rgba(36, 34, 34, 1) 31%
+  ); */
 }
 
-h1 {
-  color: rgb(252, 252, 252);
-  opacity: 0.5;
+#heading {
+  color: black;
   font-family: "Sansita Swashed", cursive;
   font-size: 80px;
   text-align: center;
+  margin-top: 3%;
+  animation: glow 3s ease-in-out infinite alternate;
+}
+
+.heding_container {
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 20px rgb(233, 40, 40);
+  }
+  to {
+    text-shadow: 0 0 20px white, 0 0 80px rgb(255, 255, 255);
+  }
+}
+
+#strapline {
+  color: rgb(252, 252, 252);
+  opacity: 0.5;
+  font-family: "Sansita Swashed", cursive;
+  font-size: 20px;
+  text-align: center;
   margin-top: 20%;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+#dark_stairs {
+  display: flex;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border: black 10px solid;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: aliceblue;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 15px 15px 15px;
+}
+
+#navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li a:hover {
+  background-color: darkgray;
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+  color: rgb(36, 34, 34);
+  transition: all 0.5s;
 }
