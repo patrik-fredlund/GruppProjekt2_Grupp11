@@ -30,7 +30,11 @@ body {
 
 .invader {
   background-color: purple;
+<<<<<<< HEAD
   border-radius: 20px;
+=======
+  border-radius: 18px;
+>>>>>>> aaa3931656b591d859bd553e909b644808d8da5b
 }
 
 .boom {
