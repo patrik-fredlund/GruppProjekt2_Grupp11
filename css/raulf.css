@@ -1,3 +1,4 @@
+
 h1 {
     padding: 0px;
     margin: 0px;
@@ -32,8 +33,8 @@ table {
 }
 
 td {
-    background-color: #eeeeee;
-    border: 4px solid white;
+    background-color: #555454;
+    border: 4px solid rgb(131, 130, 130);
     width: 100px;
     height: 100px;
     text-align: center;
