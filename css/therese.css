@@ -1,0 +1,58 @@
+* {
+    margin-bottom: 10 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.dino {
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0px;
+    background-image: url(theresepics/dino.png);
+}
+
+.obstacle {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    bottom: 0px;
+    background-image: url(theresepics/cactus.png);
+}
+
+#desert {
+    position: absolute;
+    bottom: 0px;
+    background-image: url(theresepics/t-rex-background.png);
+    background-repeat: repeat-x;
+    animation: slideright 600s infinite linear;
+    width: 100%;
+    height: 200px;
+}
+
+
+.effects {
+    border: 6px solid black;
+     font-size:100px;
+     text-align: center;
+     color: rgb(199, 24, 24);
+     text-shadow: 2px 2px black;
+     width:800px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+
+@keyframes slideright {
+    from {
+        background-position: 700%;
+    }
+
+    to {
+        background-position: 0%;
+    }
+
+}

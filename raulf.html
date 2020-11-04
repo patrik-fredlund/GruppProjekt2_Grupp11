@@ -1,18 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
+<html>
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Raulf Blogg</title>
+    <title>Tic-Tac-Toe</title>
     <link rel="stylesheet" type="text/css" href="/css/raulf.css">
     <script type="text/javascript" src="/js/raulf.js" defer></script>
+    </head>
+    <body>
+         <header>
+            <h1>Tic-Tac-Toe</h1>
+        </header>
+        <main>
+            <div id='menu'>
+                <div class="name-input">
+                    <label for="player1">Player1</label>
+                    <input id='player1' type="text" name="player1">
+                </div>
+                <div class="name-input">
+                    <label for="player2">Player2</label>
+                    <input id='player2' type="text" name="player2">
+                </div> 
+                <button id='play' onclick = 'gameController.start()'>PLAY</button>
+                <button id='singlePlayer' onclick = 'gameController.singlePlayer()'>SINGLE PLAYER</button>
+            </div>
+            <div id='board'>
+                <table>
+                </table>
+            </div>
+            </main>
+        </body>
+    </html>
 
-
-</head>
-
-<body>
-    <h1>Raulf Blogg</h1>
-</body>
-
-</html>
+        
